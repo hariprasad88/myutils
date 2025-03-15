@@ -5,7 +5,7 @@ import calendar
 path = "/Users/hari/Documents/"
 emp_id = 123456
 file_format = '.pdf'
-years = range(2011, 2026)  # 2011 to 2025 inclusive
+years = list(range(2011, 2026))  # 2011 to 2025 inclusive
 month_abbrs = [calendar.month_abbr[i].upper() for i in range(1, 13)]
 
 for year in years:
